@@ -14,3 +14,6 @@ output "PRIVATE_ALB_ADDRESS" {
   value = module.alb_private.ALB_ADDRESS
 }
 
+output "PRIVATE_LISTENER_ARN" {
+  value = module.alb_private.LISTENER_ARN[0]
+}
